@@ -9,11 +9,11 @@ public class Array4 {
         int [] ar2 = getArrayfromEvenElements(ar);
         System.out.println("Массив из чётных чисел введенной последовательности");
         for (int i = 0; i < ar2.length; i++)
-            System.out.println("ar2[" +i+ "] = "+ ar2[i]);
+            System.out.println("ar2[" +i+ "] = "+ ar2[i]);// не забывай о необходимости {}, даже если синтаксис разрешает их не ставить
 
     }
 
-    public static int [] getArrayfromEvenElements (int []ar){
+    public static int [] getArrayfromEvenElements (int []ar){// чуть аккуратней пиши код   public static int[] getArrayfromEvenElements(int[] ar)
         {
             int num = 0;
             for (int i = 0; i < ar.length; i++)
@@ -36,3 +36,4 @@ public class Array4 {
 
     }
 }
+// По задачам - молодец, постаралась, зачтено
